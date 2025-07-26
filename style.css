@@ -3,6 +3,15 @@
     padding: 0px;
 }
 
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.Noto{
+    font-family: "Noto Serif", serif;
+}
+
 body{background-color: #F5F8FF;}
 
 
@@ -37,6 +46,7 @@ body{background-color: #F5F8FF;}
     color: #8987A1;
 }
 
+
 .banner {
     display: flex;
     width: 1140px;
@@ -46,6 +56,19 @@ body{background-color: #F5F8FF;}
     align-items: center;
 }
 
+.banner-container h2{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-container p{
+
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+.banner-title{
+    color: #E95A08;
+}
 
 .newsletter {
     background-image: url(./assets/news-letter-bg.png);
