@@ -72,6 +72,13 @@ body{background-color: #F5F8FF;}
 .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    gap: 20px;
 
+}
+
+.latest-deal{
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+    width: 1140px;
 }
