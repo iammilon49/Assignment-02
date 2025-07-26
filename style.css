@@ -63,3 +63,15 @@ body{background-color: #F5F8FF;}
     padding: 199px 193px 305px;
 
 }
+
+.plants{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+
+}
